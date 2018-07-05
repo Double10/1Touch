@@ -93,7 +93,7 @@ nav .menu a:hover{
     transition: 0.3s ease;
 }
 
-#home p{
+#home span p{
     position: relative;
     color: white;
     top: 150px;
@@ -106,7 +106,7 @@ nav .menu a:hover{
     line-height: 2;
 }
 
-#home p span{
+#home span p span{
     color: red;
     font-size: 3rem;
 }

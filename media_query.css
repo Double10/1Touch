@@ -111,7 +111,7 @@
     }
 
     
-    #home p{
+    #home span p{
         position: relative;
         color: white;
         top: 100px;
@@ -124,7 +124,7 @@
         line-height: 1;
     }
 
-    #home p span{
+    #home span p span{
         color: red;
         font-size: 1rem;
     }
