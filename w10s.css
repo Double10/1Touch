@@ -54,18 +54,6 @@ nav{
     
 }
 
-
-#home div a{
-    position: absolute;
-    top: 100px;
-    color: aqua;
-    left: 500px;
-    font-size: 3rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
 .login{
     position: fixed;
     font-size: 1rem;
@@ -103,6 +91,24 @@ nav .menu a{
 nav .menu a:hover{
     border-bottom: 3px solid red;
     transition: 0.3s ease;
+}
+
+#home p{
+    position: relative;
+    color: white;
+    top: 150px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+    font-size: 2rem;
+    line-height: 2;
+}
+
+#home p span{
+    color: red;
+    font-size: 3rem;
 }
 
 #web_design h2{
