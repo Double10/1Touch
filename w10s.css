@@ -224,6 +224,48 @@ nav .menu a:hover{
     font-family: sans-serif;
 }
 
+.media span{
+    display: inline-block;
+    float: left;
+}
+
+.media  span li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    border: 1px solid gray;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 1.2rem;
+    left: 120px;
+    top: 60px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    z-index: 0;
+    padding-top: 25px;
+}
+
+.media span li a{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: inline-block;
+    background-color: rgba( 235, 232, 228, 0.74 );
+    z-index: -1;
+}
+
+.media span  li a:hover{
+    border-bottom: 3px solid gray;
+    background-color: rgba( 255, 255, 255, 0.1 );
+    z-index: 1;
+}
+
+
 #programing div ul{
     position: relative;
     display: inline;
@@ -256,246 +298,12 @@ nav .menu a:hover{
     font-size: 1.5rem;
 }
 
-
-
-
-
+/*
 .media{
     position: relative;
     display: inline;
 }
-
-
-
-.listen div img{
-    position: relative;
-    display: inline;
-    width: 200px;
-    top: 50px;
-    margin-left: 120px;
-    border: 1px solid black;
-    padding: 5px;
-    float: left;
-}
-
-.download div img{
-    position: relative;
-    display: inline;
-    width: 200px;
-    top: 100px;
-    margin-left: 120px;
-    border: 1px solid black;
-    padding: 5px;
-    float: left;
-}
-
-.tencent img{
-    position: relative;
-    display: inline;
-    width: 200px;
-    top: 150px;
-    margin-left: 120px; 
-    border: 1px solid black;
-    padding: 5px;
-    float: left;
-}
-
-.tencent a:nth-child(2) img{
-    margin-right: 610px;
-}
-
-.reading a p{
-    position: absolute;
-    display: inline-block;
-/*    border: 1px solid red;*/
-    width: 190px;
-    left: 175px;
-    top: 55px;
-    background-color: rgba( 150, 150, 150, 0.7 );
-    color: white;
-    padding: 20px 10px 61px 10px;
-    opacity: 0;
-    font-size: 0.8rem;
-    line-height: 1.6;
-}
-
-.reading a p:first-line{
-    font-size: 1.2rem;
-}
-
-.reading:hover p{
-    opacity: 1;
-}
-
-.life a p{
-    position: absolute;
-    width: 190px;
-    left: 495px;
-    top: 55px;
-    background-color: rgba( 150, 150, 150, 0.7 );
-    padding: 20px 10px 40px 10px;
-    color: white;
-    font-size: 0.8rem;
-    line-height: 1.6;
-    opacity: 0;
-}
-
-.life a P:first-line{
-    font-size: 1.2rem;
-}
-
-.life:hover p{
-    opacity: 1;
-}
-
-.drama_bible a p{
-    position: absolute;
-    width: 190px;
-    left: 815px;
-    top: 55px;
-    background-color: rgba( 150, 150, 150, 0.7 );
-    padding: 20px 10px 60px 10px;
-    color: white;
-    font-size: 0.8rem;
-    line-height: 1.6;
-    opacity: 0;
-}
-
-.drama_bible a p:first-line{
-    font-size: 1.2rem;
-}
-
-.drama_bible:hover p{
-    opacity: 1;
-}
-
-.bible a p{
-    position: absolute;
-    width: 190px;
-    left: 1135px;
-    top: 55px;
-    background-color: rgba( 150, 150, 150, 0.7 );
-    padding: 50px 40px 118px 45px;
-    color: white;
-    font-size: 1.2rem;
-    opacity: 0;
-}
-
-.bible:hover p{
-    opacity: 1;
-}
-
-.pixabay a p{
-    position: absolute;
-    width: 190px;
-    left: 175px;
-    top: 306px;
-    background-color: rgba(150, 150, 150, 0.7);
-    padding: 5px 10px 39px 10px;
-    color: white;
-    font-size: 0.8rem;
-    line-height: 1.6;
-    opacity: 0;
-}
-
-.pixabay a p:first-line{
-    font-size: 1.2rem;
-    text-transform: capitalize;
-    line-height: 2;
-}
-
-.pixabay:hover p{
-    opacity: 1;
-}
-
-.pinterest a p{
-    position: absolute;
-    width: 190px;
-    left: 495px;
-    top: 306px;
-    background-color: rgba(150, 150, 150, 0.7);
-    padding: 28px 10px 34px 10px;
-    color: white;
-    font-size: 1.6rem;
-    line-height: 1.6;
-    opacity: 0;
-    text-align: center;
-}
-
-.pinterest:hover p{
-    opacity: 1;
-}
-
-.ytmp4 a p{
-    position: absolute;
-    width: 190px;
-    left: 815px;
-    top: 306px;
-    background-color: rgba(150, 150, 150, 0.7);
-    padding: 5px 0px 7px 0px;
-    color: white;
-    font-size: 1.2rem;
-    text-align: center;
-    line-height: 1.6;
-    opacity: 0;
-}
-
-.ytmp4:hover p{
-    opacity: 1;
-}
-
-.togetflv a p{
-    position: absolute;
-    width: 190px;
-    left: 1135px;
-    top: 306px;
-    background-color: rgba(150, 150, 150, 0.7);
-    padding: 35px 0px 45px 0px;
-    color: white;
-    font-size: 1.2rem;
-    text-align: center;
-    opacity: 0;
-}
-
-.togetflv:hover p{
-    opacity: 1;
-}
-
-.OA a p{
-    position: absolute;
-    width: 190px;
-    left: 175px;
-    top: 468px;
-    background-color: rgba(150, 150, 150, 0.7);
-    padding: 30px 0px 28px 0px;
-    color: white;
-    font-size: 1.2rem;
-    text-align: center;
-    text-transform: capitalize;
-    opacity: 0;
-}
-
-.OA:hover p{
-    opacity: 1;
-}
-
-.tv a p{
-    position: absolute;
-    width: 190px;
-    left: 495px;
-    top: 468px;
-    background-color: rgba(150, 150, 150, 0.7);
-    padding: 35px 0px 45px 0px;
-    text-align: center;
-    color: white;
-    text-transform: capitalize;
-    font-size: 1.2rem;
-    opacity: 0;
-}
-
-.tv:hover p{
-    opacity: 1;
-}
+*/
 
 #programing span{
     position: relative;
