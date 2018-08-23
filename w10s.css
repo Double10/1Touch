@@ -173,13 +173,17 @@ nav .menu a:hover{
     
 }
 
+
 .mall figure{
     position: relative;
     border: 1px solid black;
     display: inline-block;
+    float: left;
     left: 220px;
     padding: 10px;
     top: 150px;
+    width: 200px;
+    margin-right: 50px;
 }
 
 .mall figure figcaption{
@@ -191,7 +195,7 @@ nav .menu a:hover{
 }
 
 .mall figure img{
-    width: 200px;
+    width: 100%;
 }
 
 
