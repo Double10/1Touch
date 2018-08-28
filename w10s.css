@@ -5,7 +5,8 @@
 }
 
 section{
-/*    position: relative;*/
+    position: relative;
+    height: 780px;
 }
 
 section>div{
