@@ -140,7 +140,7 @@ nav .menu a:hover{
 }
 
 #web_design, #web_design div{
-    height: 200vh;
+    height: 110vh;
 }
 
 #web_design div ul{
@@ -201,9 +201,7 @@ nav .menu a:hover{
 
 
 #media div ul{
-    position: relative;
-    display: inline;
-    height: 100vh;
+    height: 100%;
 /*    border: 1px solid red;*/
     background-color: black;
 }
@@ -232,6 +230,7 @@ nav .menu a:hover{
 .media span{
     display: inline-block;
     float: left;
+    margin-left: 70px;
 }
 
 .media  span li{
